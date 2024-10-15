@@ -1,0 +1,212 @@
+/* Basic reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background-color: transparent; /* Initial transparent background */
+    top: 0; /* Align it to the top */
+    width: 100%; /* Full width */
+    z-index: 10; /* Ensure it is above other content */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: aqua;
+}
+
+.navbar .fas {
+    color: aqua;
+    font-size: 30px;
+}
+#home{
+    color: aqua;
+}
+.navbar-nav .nav-link {
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: aqua;
+}
+
+.btn-primary {
+    background-color: aqua;
+    border: none;
+}
+
+.btn-outline-primary {
+    border: 2px solid aqua;
+    color: aqua;
+}
+
+.btn-outline-primary:hover {
+    background-color: aqua;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background-image: url('https://themewagon.github.io/acuas/img/carousel-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-text h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Active Background for Navbar */
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Change to a solid color when scrolled */
+}
+.Feature{
+    padding-top: 60px;
+    h4{
+        color: aqua;
+    }
+}
+.box{
+    padding-top: 40px;
+}
+.card-main{
+    position: absolute;
+    background-color: #F2F9F9;
+    width: 100%;
+}
+.card1 h4{
+    font-weight: bolder;
+    color: aqua;
+}
+h1{
+    font-weight: bolder;
+}
+/* Services Section */
+.services-section {
+    background-color: white;
+    padding: 60px 0;
+   padding-top: 580px;
+}
+.services-section h4, .services-section h1 {
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+}
+
+.services-section .service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.services-section h5 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.services-section p {
+    color: #666;
+}
+
+/* Counter Section */
+.counter-section {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.counter-section h2 {
+    color: aqua;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.counter-section p {
+    color: #666;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.contact-section h4, .contact-section h1 {
+    text-align: center;
+    color: aqua;
+}
+
+.contact-section form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section .form-control {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
